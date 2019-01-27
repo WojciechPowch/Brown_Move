@@ -1,0 +1,14 @@
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\bin\Debug\BrownElement.exe.config
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\bin\Debug\BrownElement.exe
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\bin\Debug\BrownElement.pdb
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\obj\Debug\BrownElement.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\obj\Debug\BrownElement.BrownElementForm.resources
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\obj\Debug\BrownElement.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\obj\Debug\BrownElement.csproj.GenerateResource.Cache
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\obj\Debug\BrownElement.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\obj\Debug\BrownElement.exe
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\obj\Debug\BrownElement.pdb
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\bin\Debug\BrownElement.exe.manifest
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\bin\Debug\BrownElement.application
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\obj\Debug\BrownElement.exe.manifest
+C:\Users\Lenovo\source\repos\BrownElement\BrownElement\obj\Debug\BrownElement.application
