@@ -55,6 +55,7 @@ namespace BrownElement
 
                 if (bufor.Count == 0)
                 {
+                    bufor.Add(this.initialCoordinates);
                     ProvideCalculateAction(this.initialCoordinates);
                 }
                 else
