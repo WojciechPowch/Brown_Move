@@ -74,7 +74,8 @@ namespace BrownElement
 
             if (saveFileDialog.FileName != "")
             {
-                XLSSaver xLSSaver = new XLSSaver(result, saveFileDialog.FileName);
+                double way = CalculateElementsWay();
+                XLSSaver xLSSaver = new XLSSaver(result, way, saveFileDialog.FileName);
                 xLSSaver.WriteToFile();
             }
         }
@@ -82,6 +83,16 @@ namespace BrownElement
         private static void ShowWarningMessage()
         {
             MessageBox.Show("Symulacja nie zawiera żadnych wyników! Proszę wykonaj najpierw symulacje!");
+        }
+
+        /**
+         * Pisane na szybko
+         * */
+        private static double CalculateElementsWay()
+        {
+            Coordinate lastCoordinate = result.Last<Coordinate>();
+
+            return Math.Sqrt(Math.Pow(lastCoordinate.X, 2) + Math.Pow(lastCoordinate.Y, 2));
         }
     }
 }

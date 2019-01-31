@@ -15,6 +15,7 @@ namespace BrownElement
     class XLSSaver
     {
         private List<Coordinate> coordinateList;
+        private double way;
         private String filePath;
 
         private FileStream fileStream;
@@ -22,9 +23,10 @@ namespace BrownElement
 
         private const String TABULATOR = "\t";
 
-        public XLSSaver(List<Coordinate> coordinateList, String filePath)
+        public XLSSaver(List<Coordinate> coordinateList, double way, String filePath)
         {
             this.coordinateList = coordinateList;
+            this.way = way;
             this.filePath = filePath;
         }
 
@@ -32,6 +34,7 @@ namespace BrownElement
         {
             InitStreamWriter();
             WriteCoordinateListToFile();
+            WriteWayToFile();
             CloseFileStreams();
         }
 
@@ -47,6 +50,12 @@ namespace BrownElement
             {
                 streamWriter.WriteLine(GetLineToWrite(coordinate));
             }
+        }
+
+        private void WriteWayToFile()
+        {
+            streamWriter.WriteLine();
+            streamWriter.WriteLine("Element was move for : {0}", way);
         }
 
         private String GetLineToWrite(Coordinate coordinate)
